@@ -1,0 +1,17 @@
+/vendor
+/.env
+/database/*.sqlite
+/storage/app/public/*
+!/storage/app/public/.gitignore
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/public/storage
+/.phpunit.cache
+
+/storage/app/private/*
+!/storage/app/private/.gitignore
+/storage/framework/testing/*
+/bootstrap/cache/*.php
+/.phpunit.result.cache

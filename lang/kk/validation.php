@@ -1,0 +1,23 @@
+<?php
+return [
+    'required' => ':attribute өрісі міндетті.',
+    'string' => ':attribute мәтін болуы керек.',
+    'email' => ':attribute дұрыс email мекенжайы болуы керек.',
+    'url' => ':attribute дұрыс HTTPS сілтемесі болуы керек.',
+    'integer' => ':attribute бүтін сан болуы керек.',
+    'boolean' => ':attribute мәні дұрыс емес.',
+    'in' => ':attribute тізімнен таңдалуы керек.',
+    'date_format' => ':attribute уақыты дұрыс пішімде болуы керек.',
+    'current_password' => 'Қазіргі құпиясөз дұрыс емес.',
+    'confirmed' => 'Құпиясөзді растау сәйкес келмейді.',
+    'image' => ':attribute сурет файлы болуы керек.',
+    'file' => ':attribute жүктелген файл болуы керек.',
+    'mimes' => ':attribute рұқсат етілген пішімдер: :values.',
+    'dimensions' => ':attribute суретінің өлшемі рұқсат етілген шектен асады.',
+    'uploaded' => ':attribute файлын жүктеу сәтсіз аяқталды. Файл өлшемін тексеріңіз.',
+    'unique' => ':attribute бұрын тіркелген.',
+    'max' => ['numeric' => ':attribute :max мәнінен аспауы керек.', 'string' => ':attribute :max таңбадан аспауы керек.', 'file' => ':attribute :max КБ көлемінен аспауы керек.', 'array' => ':attribute :max элементтен аспауы керек.'],
+    'min' => ['numeric' => ':attribute кемінде :min болуы керек.', 'string' => ':attribute кемінде :min таңба болуы керек.', 'file' => ':attribute кемінде :min КБ болуы керек.', 'array' => ':attribute кемінде :min элемент болуы керек.'],
+    'password' => ['letters' => 'Құпиясөзде әріп болуы керек.', 'numbers' => 'Құпиясөзде сан болуы керек.'],
+    'attributes' => ['name' => 'Атауы', 'title' => 'Атауы', 'type' => 'Мектеп түрі', 'category' => 'Бөлім', 'village' => 'Елді мекен', 'address' => 'Мекенжай', 'students' => 'Оқушы саны', 'phone' => 'Телефон', 'website_url' => 'Мектеп сайты', 'photo' => 'Фотосурет', 'image' => 'Сурет', 'attachment' => 'Құжат', 'description' => 'Сипаттама', 'excerpt' => 'Қысқаша мәтін', 'body' => 'Мәтін', 'is_published' => 'Жариялау', 'published_at' => 'Жариялау уақыты', 'email' => 'Email', 'password' => 'Құпиясөз', 'current_password' => 'Қазіргі құпиясөз', 'url' => 'Сілтеме', 'sort_order' => 'Көрсету реті', 'site_title' => 'Портал атауы', 'contact_email' => 'Байланыс email-і', 'contact_phone' => 'Байланыс телефоны', 'contact_address' => 'Байланыс мекенжайы', 'office_hours' => 'Жұмыс уақыты', 'contact_note' => 'Байланыс туралы ақпарат', 'q' => 'Іздеу сөзі'],
+];

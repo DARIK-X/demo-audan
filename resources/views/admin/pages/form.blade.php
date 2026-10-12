@@ -1,0 +1,3 @@
+@extends('layouts.admin')
+@section('title', 'Бетті өңдеу — Білім')
+@section('admin-content')<h1>{{ $page->title }}</h1><form class="admin-form" method="post" action="{{ route('admin.pages.update', $page) }}">@csrf @method('PUT')<label>Бет атауы<input name="title" maxlength="180" value="{{ old('title', $page->title) }}" required></label><label>Мәтін<textarea name="body" rows="15" maxlength="30000" required>{{ old('body', $page->body) }}</textarea></label><input type="hidden" name="is_published" value="0"><label class="inline-check"><input name="is_published" type="checkbox" value="1" @checked(old('is_published', $page->is_published))> Сайтта жариялау</label><button class="button" type="submit">Сақтау ✓</button></form>@endsection

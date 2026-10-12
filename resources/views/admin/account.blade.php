@@ -1,0 +1,3 @@
+@extends('layouts.admin')
+@section('title', 'Құпиясөзді өзгерту — Білім')
+@section('admin-content')<h1>Құпиясөзді өзгерту</h1><form class="admin-form" method="post" action="{{ route('admin.account.update') }}">@csrf @method('PUT')<label>Қазіргі құпиясөз<input type="password" name="current_password" autocomplete="current-password" required></label><label>Жаңа құпиясөз<input type="password" name="password" autocomplete="new-password" minlength="12" required><small>Кемінде 12 таңба, әріптер және сандар.</small></label><label>Жаңа құпиясөзді қайталау<input type="password" name="password_confirmation" autocomplete="new-password" required></label><button class="button" type="submit">Жаңарту ✓</button></form>@endsection

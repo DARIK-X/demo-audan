@@ -1,0 +1,3 @@
+@extends('layouts.app')
+@section('title', 'Әкімшіге кіру — Білім')
+@section('content')<section class="wrap login-page"><div class="login-panel"><div class="eyebrow">ПОРТАЛДЫ БАСҚАРУ</div><h1>Әкімшіге кіру</h1><p>Мектептер туралы ақпаратты басқару үшін кіріңіз.</p><form method="post" action="{{ route('login.store') }}">@csrf<label>Email<input name="email" type="email" value="{{ old('email') }}" autocomplete="username" required autofocus></label><label>Құпиясөз<input name="password" type="password" autocomplete="current-password" required></label>@error('email')<p class="field-error" role="alert">{{ $message }}</p>@enderror<button class="button" type="submit">Кіру →</button></form></div></section>@endsection
